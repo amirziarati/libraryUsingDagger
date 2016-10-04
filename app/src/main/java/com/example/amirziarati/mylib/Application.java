@@ -7,8 +7,9 @@ public class Application {
 
     public static MyComponent component;
 
-    //this part of code runs in both library run standalone from main or when this library is given to some one else
-    //if the library is something you gonna use in your own project the best practice is to place your component in Android App module Application class
+
+    //this part of code will run only the first time Applicatian class is accesed. wether in standlone run which starts from main or in module use from other external modules
+    //if the library is something you gonna use in your own project the best practice is to place your component in Android App Application class
     static {
         System.out.println("android library started");
         component = DaggerMyComponent.builder().myModule(new MyModule()).build();
