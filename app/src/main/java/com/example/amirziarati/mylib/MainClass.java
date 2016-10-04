@@ -1,7 +1,7 @@
 package com.example.amirziarati.mylib;
 
-import dagger.Module;
 import javax.inject.Inject;
+
 /**
  * Created by amirziarati on 10/4/16.
  */
@@ -10,8 +10,7 @@ public class MainClass {
     @Inject
     String strAmir;
 
-    public MainClass()
-    {
+    public MainClass() {
         injectDependencies();
         System.out.println(strAmir);
 

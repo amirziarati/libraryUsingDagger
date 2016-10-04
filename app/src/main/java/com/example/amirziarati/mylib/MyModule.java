@@ -1,8 +1,5 @@
 package com.example.amirziarati.mylib;
 
-import javax.inject.Named;
-import javax.inject.Singleton;
-
 import dagger.Module;
 import dagger.Provides;
 
