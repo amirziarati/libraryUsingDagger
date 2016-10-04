@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Mylib.iml" filepath="$PROJECT_DIR$/Mylib.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraryUsingDagger.iml" filepath="$PROJECT_DIR$/libraryUsingDagger.iml" />
     </modules>
   </component>
 </project>
