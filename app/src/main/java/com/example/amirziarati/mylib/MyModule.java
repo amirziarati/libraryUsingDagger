@@ -9,7 +9,7 @@ import dagger.Provides;
 @Module
 public class MyModule {
     @Provides
-    public String provideIsDebug() {
+    public String provideAmir() {
         return "Amir Was Injected";
     }
 }
